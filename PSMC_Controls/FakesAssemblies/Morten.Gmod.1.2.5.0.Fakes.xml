@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Morten.Gmod.1.2.5.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimFileEntry">
+            <summary>Shim-Typ von Morten.Gmod.Gmad.FileEntry</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEntry.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEntry.#ctor(Morten.Gmod.Gmad.FileEntry)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEntry.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEntry.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.ArchiveGet">
+            <summary>Legt die shim von FileEntry.get_Archive() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.ConstructorGmadArchiveStringUInt32">
+            <summary>Legt die shim von FileEntry.FileEntry(GmadArchive archive, String name, UInt32 size) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.ExtractString">
+            <summary>Legt die shim von FileEntry.Extract(String filename) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.NameGet">
+            <summary>Legt die shim von FileEntry.get_Name() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.SizeGet">
+            <summary>Legt die shim von FileEntry.get_Size() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.ToString">
+            <summary>Legt die shim von FileEntry.ToString() fest.</summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileEntry._GmadArchive" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileEntry._String" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileEntry._UInt32" ignoriert -->
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances.ArchiveGet">
+            <summary>Legt die shim von FileEntry.get_Archive() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances.ExtractString">
+            <summary>Legt die shim von FileEntry.Extract(String filename) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances.NameGet">
+            <summary>Legt die shim von FileEntry.get_Name() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances.SizeGet">
+            <summary>Legt die shim von FileEntry.get_Size() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances.ToString01">
+            <summary>Legt die shim von FileEntry.ToString() fest.</summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances._GmadArchive" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances._String" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileEntry.AllInstances._UInt32" ignoriert -->
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs">
+            <summary>Shim-Typ von Morten.Gmod.Gmad.FileEventArgs</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.#ctor(Morten.Gmod.Gmad.FileEventArgs)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.CancelGet">
+            <summary>Legt die shim von FileEventArgs.get_Cancel() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.CancelSetBoolean">
+            <summary>Legt die shim von FileEventArgs.set_Cancel(Boolean value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.ConstructorFileEntry">
+            <summary>Legt die shim von FileEventArgs.FileEventArgs(FileEntry file) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.FileGet">
+            <summary>Legt die shim von FileEventArgs.get_File() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.FileSetFileEntry">
+            <summary>Legt die shim von FileEventArgs.set_File(FileEntry value) fest.</summary>
+        </member>
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.AllInstances.CancelGet">
+            <summary>Legt die shim von FileEventArgs.get_Cancel() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.AllInstances.CancelSetBoolean">
+            <summary>Legt die shim von FileEventArgs.set_Cancel(Boolean value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.AllInstances.FileGet">
+            <summary>Legt die shim von FileEventArgs.get_File() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileEventArgs.AllInstances.FileSetFileEntry">
+            <summary>Legt die shim von FileEventArgs.set_File(FileEntry value) fest.</summary>
+        </member>
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs">
+            <summary>Shim-Typ von Morten.Gmod.Gmad.FileProgressEventArgs</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.#ctor(Morten.Gmod.Gmad.FileProgressEventArgs)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.CancelGet">
+            <summary>Legt die shim von FileProgressEventArgs.get_Cancel() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.CancelSetBoolean">
+            <summary>Legt die shim von FileProgressEventArgs.set_Cancel(Boolean value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.ConstructorFileEntrySingle">
+            <summary>Legt die shim von FileProgressEventArgs.FileProgressEventArgs(FileEntry file, Single progress) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.FileGet">
+            <summary>Legt die shim von FileProgressEventArgs.get_File() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.ProgressGet">
+            <summary>Legt die shim von FileProgressEventArgs.get_Progress() fest.</summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs._FileEntry" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs._Single" ignoriert -->
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances.CancelGet">
+            <summary>Legt die shim von FileProgressEventArgs.get_Cancel() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances.CancelSetBoolean">
+            <summary>Legt die shim von FileProgressEventArgs.set_Cancel(Boolean value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances.FileGet">
+            <summary>Legt die shim von FileProgressEventArgs.get_File() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances.ProgressGet">
+            <summary>Legt die shim von FileProgressEventArgs.get_Progress() fest.</summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances._FileEntry" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimFileProgressEventArgs.AllInstances._Single" ignoriert -->
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimGmadArchive">
+            <summary>Shim-Typ von Morten.Gmod.Gmad.GmadArchive</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.#ctor">
+            <summary>Initialisiert eine neue Shim-Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.#ctor(Morten.Gmod.Gmad.GmadArchive)">
+            <summary>Initialisiert einen neuen Shim für die gegebene Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.BehaveAsCurrent">
+            <summary>Weist das &apos;Current&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.BehaveAsNotImplemented">
+            <summary>Weist das &apos;NotImplemented&apos;-Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AuthorGet">
+            <summary>Legt die shim von GmadArchive.get_Author() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.Behavior">
+            <summary>Weist das Verhalten für alle Methoden des Shim-Typs zu.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.CancelExtraction">
+            <summary>Legt die shim von GmadArchive.CancelExtraction() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ConstructorString">
+            <summary>Legt die shim von GmadArchive.GmadArchive(String fileName) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.DescriptionGet">
+            <summary>Legt die shim von GmadArchive.get_Description() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractFileFileEntryString">
+            <summary>Legt die shim von GmadArchive.ExtractFile(FileEntry fileToExtract, String filename) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractString">
+            <summary>Legt die shim von GmadArchive.Extract(String outputFolder) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractStringBoolean">
+            <summary>Legt die shim von GmadArchive.Extract(String outputFolder, Boolean maintainStructure) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractionProgressAddEventHandlerOfFileProgressEventArgs">
+            <summary>Legt die shim von GmadArchive.add_ExtractionProgress(EventHandler`1&lt;FileProgressEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractionProgressMinimumFileSizeGet">
+            <summary>Legt die shim von GmadArchive.get_ExtractionProgressMinimumFileSize() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractionProgressMinimumFileSizeSetUInt64">
+            <summary>Legt die shim von GmadArchive.set_ExtractionProgressMinimumFileSize(UInt64 value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.ExtractionProgressRemoveEventHandlerOfFileProgressEventArgs">
+            <summary>Legt die shim von GmadArchive.remove_ExtractionProgress(EventHandler`1&lt;FileProgressEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FileExtractedAddEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.add_FileExtracted(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FileExtractedRemoveEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.remove_FileExtracted(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FileExtractingAddEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.add_FileExtracting(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FileExtractingRemoveEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.remove_FileExtracting(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FileNameGet">
+            <summary>Legt die shim von GmadArchive.get_FileName() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FilesGet">
+            <summary>Legt die shim von GmadArchive.get_Files() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FilesOffsetGet">
+            <summary>Legt die shim von GmadArchive.get_FilesOffset() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.FilesOffsetSetInt64">
+            <summary>Legt die shim von GmadArchive.set_FilesOffset(Int64 value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.NameGet">
+            <summary>Legt die shim von GmadArchive.get_Name() fest.</summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._FileStream" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._String" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._String01" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._String02" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._String03" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._StringString" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive._StringStringBoolean" ignoriert -->
+        <member name="T:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances">
+            <summary>Shims für alle Instanzenmember definieren</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.AuthorGet">
+            <summary>Legt die shim von GmadArchive.get_Author() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.CancelExtraction">
+            <summary>Legt die shim von GmadArchive.CancelExtraction() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.DescriptionGet">
+            <summary>Legt die shim von GmadArchive.get_Description() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractFileFileEntryString">
+            <summary>Legt die shim von GmadArchive.ExtractFile(FileEntry fileToExtract, String filename) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractString">
+            <summary>Legt die shim von GmadArchive.Extract(String outputFolder) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractStringBoolean">
+            <summary>Legt die shim von GmadArchive.Extract(String outputFolder, Boolean maintainStructure) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractionProgressAddEventHandlerOfFileProgressEventArgs">
+            <summary>Legt die shim von GmadArchive.add_ExtractionProgress(EventHandler`1&lt;FileProgressEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractionProgressMinimumFileSizeGet">
+            <summary>Legt die shim von GmadArchive.get_ExtractionProgressMinimumFileSize() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractionProgressMinimumFileSizeSetUInt64">
+            <summary>Legt die shim von GmadArchive.set_ExtractionProgressMinimumFileSize(UInt64 value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.ExtractionProgressRemoveEventHandlerOfFileProgressEventArgs">
+            <summary>Legt die shim von GmadArchive.remove_ExtractionProgress(EventHandler`1&lt;FileProgressEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FileExtractedAddEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.add_FileExtracted(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FileExtractedRemoveEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.remove_FileExtracted(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FileExtractingAddEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.add_FileExtracting(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FileExtractingRemoveEventHandlerOfFileEventArgs">
+            <summary>Legt die shim von GmadArchive.remove_FileExtracting(EventHandler`1&lt;FileEventArgs&gt; value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FileNameGet">
+            <summary>Legt die shim von GmadArchive.get_FileName() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FilesGet">
+            <summary>Legt die shim von GmadArchive.get_Files() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FilesOffsetGet">
+            <summary>Legt die shim von GmadArchive.get_FilesOffset() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.FilesOffsetSetInt64">
+            <summary>Legt die shim von GmadArchive.set_FilesOffset(Int64 value) fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances.NameGet">
+            <summary>Legt die shim von GmadArchive.get_Name() fest.</summary>
+        </member>
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances._" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances._String" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances._String01" ignoriert -->
+        <!-- Ungültiger XML-Kommentar wurde für den Member "P:Morten.Gmod.Gmad.Fakes.ShimGmadArchive.AllInstances._String02" ignoriert -->
+        <member name="T:Morten.Gmod.Gmad.Fakes.StubFileEntry">
+            <summary>Stub-Typ von Morten.Gmod.Gmad.FileEntry</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileEntry.#ctor(Morten.Gmod.Gmad.GmadArchive,System.String,System.UInt32)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileEntry.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubFileEntry.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileEntry.ToString">
+            <summary>Legt die stub von FileEntry.ToString() fest.</summary>
+        </member>
+        <member name="F:Morten.Gmod.Gmad.Fakes.StubFileEntry.ToString01">
+            <summary>Legt die stub von FileEntry.ToString() fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileEntry.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileEntry.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileEntry.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Morten.Gmod.Gmad.Fakes.StubFileEventArgs">
+            <summary>Stub-Typ von Morten.Gmod.Gmad.FileEventArgs</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileEventArgs.#ctor(Morten.Gmod.Gmad.FileEntry)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileEventArgs.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubFileEventArgs.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileEventArgs.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileEventArgs.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileEventArgs.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Morten.Gmod.Gmad.Fakes.StubFileProgressEventArgs">
+            <summary>Stub-Typ von Morten.Gmod.Gmad.FileProgressEventArgs</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileProgressEventArgs.#ctor(Morten.Gmod.Gmad.FileEntry,System.Single)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubFileProgressEventArgs.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubFileProgressEventArgs.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileProgressEventArgs.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileProgressEventArgs.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubFileProgressEventArgs.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="T:Morten.Gmod.Gmad.Fakes.StubGmadArchive">
+            <summary>Stub-Typ von Morten.Gmod.Gmad.GmadArchive</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubGmadArchive.#ctor(System.String)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="M:Morten.Gmod.Gmad.Fakes.StubGmadArchive.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubGmadArchive.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubGmadArchive.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubGmadArchive.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:Morten.Gmod.Gmad.Fakes.StubGmadArchive.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+    </members>
+</doc>

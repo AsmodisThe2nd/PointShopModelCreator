@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointShopModelCreator", "PointShopModelCreator\PointShopModelCreator.csproj", "{9EB9CBEE-B21C-43CE-8246-3CD475F2A0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSMC_Controls", "PSMC_Controls\PSMC_Controls.csproj", "{5A66B3C0-0C46-4D93-80FD-B5A4EDA3DE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iop", "iop\iop.csproj", "{8B6FA625-D4E9-459D-8C79-2C731D53B347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EB9CBEE-B21C-43CE-8246-3CD475F2A0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB9CBEE-B21C-43CE-8246-3CD475F2A0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB9CBEE-B21C-43CE-8246-3CD475F2A0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB9CBEE-B21C-43CE-8246-3CD475F2A0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A66B3C0-0C46-4D93-80FD-B5A4EDA3DE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A66B3C0-0C46-4D93-80FD-B5A4EDA3DE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A66B3C0-0C46-4D93-80FD-B5A4EDA3DE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A66B3C0-0C46-4D93-80FD-B5A4EDA3DE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6FA625-D4E9-459D-8C79-2C731D53B347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6FA625-D4E9-459D-8C79-2C731D53B347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6FA625-D4E9-459D-8C79-2C731D53B347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6FA625-D4E9-459D-8C79-2C731D53B347}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,99 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:PSMC_Controls="clr-namespace:PSMC;assembly=PSMC_Controls"
+    xmlns:local="clr-namespace:PSMC" 
+    xmlns:local1="clr-namespace:PSMC;assembly=iop" x:Name="window" 
+    x:Class="PSMC.MainWindow"
+        Title="Pointshop Model Creator" Height="563.808" Width="910.146" Icon="game.ico">
+    <Window.Resources>
+        <local1:EnumToBoolConverter x:Key="EnumToBooleanConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid x:Name="Main" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="39*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="571*" MinWidth="250"/>
+                <ColumnDefinition Width="331*" MinWidth="200"/>
+            </Grid.ColumnDefinitions>
+            <Menu Margin="0" Grid.Row="0" Grid.ColumnSpan="2">
+                <MenuItem  Header="Items" Height="26">
+                    <MenuItem Header="Selected">
+                        <MenuItem Header="Load Previews" Click="MenuItem_Click_1"/>
+                        <MenuItem Header="Generate lua " Click="MenuItem_Click_4"/>
+                        <Separator/>
+                        <MenuItem Header="Delete" Click="MenuItem_Click_5"/>
+                    </MenuItem>
+                    <MenuItem Header="Select all" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="Switch Selections" Click="MenuItem_Click_3"/>
+                    <Separator></Separator>
+                    <MenuItem Header="Load all Previews" Click="MenuItem_Click"/>
+                </MenuItem>
+                <MenuItem  Header="Help" Height="26">
+                    <MenuItem Header="About" Click="MenuItem_Click_6"/>
+                </MenuItem>
+            </Menu>
+
+            <ScrollViewer x:Name="scrollViewer" Margin="0" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" Grid.ColumnSpan="1" Grid.RowSpan="1" Grid.Row="1">
+                <local:AlignableWrapPanel x:Name="ModelItems" Margin="5" VerticalAlignment="Top" UseLayoutRounding="True"/>
+            </ScrollViewer>
+            <GridSplitter Grid.Column="1" 
+				Grid.RowSpan="1"  Grid.Row="1"
+				HorizontalAlignment="Left" 
+				VerticalAlignment="Stretch"
+				Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" 
+				ShowsPreview="true"
+				Width="5"/>
+            <StackPanel Margin="20,0,20,50" Grid.Column="1" Grid.RowSpan="1" Grid.Row="1">
+                <Label Content="Settings" FontWeight="Bold" FontSize="16" FontFamily="Shruti"/>
+                <GroupBox Header="Template" Margin="0,10" Padding="5">
+                    <StackPanel>
+                        <StackPanel VerticalAlignment="Top" Width="250" Margin="0,0,0,5">
+                            <RadioButton Content="Character" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="250" IsChecked="{Binding CrMode, ConverterParameter=Character, Converter={StaticResource EnumToBooleanConverter}, ElementName=window}"/>
+                            <RadioButton Content="Hat" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="250" IsChecked="{Binding CrMode, ConverterParameter=Hat, Converter={StaticResource EnumToBooleanConverter}, ElementName=window}"/>
+                            <RadioButton Content="Weapon" HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="250" IsChecked="{Binding CrMode, ConverterParameter=Item, Converter={StaticResource EnumToBooleanConverter}, ElementName=window}"/>
+                            <RadioButton IsChecked="{Binding CrMode, ConverterParameter=Custom, Converter={StaticResource EnumToBooleanConverter}, ElementName=window}" Height="18" Width="250" VerticalAlignment="Top">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="70*"/>
+                                        <ColumnDefinition Width="30*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Grid.ColumnSpan="1" Grid.Column="0"><Run Text="Own Code"/></TextBlock>
+                                    <Button Margin="5,-2,0,0" Grid.Column="1" Width="15" Content="..." Click="Button_Click_2" Unloaded="Button_Unloaded"/>
+                                </Grid>
+                            </RadioButton>
+                        </StackPanel>
+                        <Button Content="Generate!" Click="Button_Click" Margin="0,0,0,5"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox  Header="Location to Search for Addons and Models:" Padding="5" Margin="0,0,0,10">
+                    <StackPanel>
+                        <TextBox x:Name="searchPath" TextWrapping="Wrap" Text="E:\steamcmd\gm_server\garrysmod\addons" Margin="0,0,0,5" Height="18"/>
+                        <CheckBox x:Name="extradd" Content="Extract Addon Files" Margin="0,0,0,5"/>
+                        <Button Content="Load" Click="Button_Click_1"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="Where To Save the Lua Files" Margin="0,0,0,10" Padding="5">
+                    <StackPanel>
+                        <TextBox x:Name="modelSavePath" Margin="0,0,0,5">.\Luas</TextBox>
+                        <CheckBox x:Name="oac" Content="Open after generation" IsChecked="True"></CheckBox>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Height="50" Margin="0" Grid.Row="1" VerticalAlignment="Bottom" Orientation="Horizontal" FlowDirection="RightToLeft">
+                <Button Content="Clear Cache" Margin="5,10,0,5" Click="Button_Click_3">
+                </Button>
+                <Button Content="Find hlmv" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,10,5" Grid.Row="1" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.293,0.45" Height="40" Click="Button_Click_4"/>
+            </StackPanel>
+
+        </Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+            <ProgressBar x:Name="progressb" Height="20" Visibility="Hidden"/>
+            <Label x:Name="progressl" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Window>

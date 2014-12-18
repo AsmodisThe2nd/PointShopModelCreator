@@ -1,0 +1,32 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PSMC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CustomModelPattern" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-----------------------------------------------------------
+---------      CUSTOM MODEL PATTERN     --------------
+-----------------------------------------------------------
+
+
+ITEM.Name = '%MODEL_NAME%'
+ITEM.Price = %MODEL_PRICE%
+ITEM.Model = '%MODEL_VIRTUAL_PATH%'
+
+
+function ITEM:OnEquip(ply)
+	ply:PS_AddClientsideModel(self.ID)
+end
+
+function ITEM:OnHolster(ply)
+	ply:PS_RemoveClientsideModel(self.ID)
+end
+
+function ITEM:ModifyClientsideModel(ply, model, pos, ang)
+	return model, pos, ang
+end</Value>
+    </Setting>
+    <Setting Name="hlmv_path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\Games\SteamGames\steamapps\common\Counter-Strike Source\bin\hlmv.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
